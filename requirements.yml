@@ -12,6 +12,7 @@ dependencies:
   - pandas
   - scikit-learn
   - seaborn
+  - cudnn=8.2.1
   - pip:
     - --extra-index-url https://download.pytorch.org/whl/cu113
     - scikit-image
@@ -19,6 +20,7 @@ dependencies:
     - rich
     - ipyleaflet
     - torchmetrics
+    - tensorflow-gpu==2.10
     - torch==1.12.1+cu113 
     - torchvision==0.13.1+cu113 
     - pytorch-ssim==0.1
@@ -28,7 +30,7 @@ dependencies:
     - odc-stac
     - charset-normalizer==2.1.0
     - rioxarray==0.13.3
-    - stackstac-0.4.3
+    - stackstac==0.4.3
     - xarray-spatial
     - odc-algo
     # - torch==1.4.0
